@@ -3,9 +3,13 @@
 body {
     background-color: #e7efd9;
     color: darkgreen;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header, footer {
@@ -22,7 +26,9 @@ header, footer {
 main {
     padding: 20px;
     text-align: left;
+    flex: 1;
 }
+
 .logo { 
     max-width: 150px;
     width: 100%;
@@ -30,38 +36,44 @@ main {
     display: block;
     margin: auto;
 }
+
 nav ul { 
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 10px;
+    margin: 0;
 }
-nav a{ 
+
+nav a { 
     text-decoration: none;
     color: darkolivegreen;
     font-weight: bold;
 }
+
 .float-image {
     float: left;
     max-width: 400px; 
     width: 100%;
     margin: 20px;
 }
-footer img{ 
-    margin:10px;
+
+footer img { 
+    margin: 10px;
     vertical-align: middle;
 }
-.product-img { 
 
-    padding: 10 px;
+.product-img { 
+    padding: 10px; /* fixed */
     width: 350px;
     height: 350px;
     object-fit: cover;
 }
+
 form {
     max-width: 500px;
-    margin: auto;
+    margin: 0; /* fixed */
     text-align: left;
 }
 
