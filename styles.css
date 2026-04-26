@@ -1,5 +1,4 @@
 /* Basic CSS file for Sprout & Grow website */
-
 body {
     background-color: #e7efd9;
     color: darkgreen;
@@ -17,14 +16,17 @@ header, footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #aab4aad3;
-    color: #fff;
+    background-color: #f4f7f1;
+    border-bottom: 1px solid #dcdcdc;
+    color: #1a4e28;
     text-align: center;
     padding: 10px;
 }
 
 main {
-    padding: 20px;
+    padding: 40px 60px;
+    max-width: 1100px;
+    margin: 0 auto;
     text-align: left;
     flex: 1;
 }
@@ -41,22 +43,26 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 10px;
-    margin: 0;
+    gap: 30px;
+    padding: 0;
+    margin: 10px 0;
 }
 
 nav a { 
     text-decoration: none;
-    color: darkolivegreen;
+    color: #9db17c;
     font-weight: bold;
+}
+
+nav a:hover {
+    color: #6c8f6c;
 }
 
 .float-image {
     float: left;
-    max-width: 400px; 
+    max-width: 300px; 
     width: 100%;
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 footer img { 
@@ -65,15 +71,29 @@ footer img {
 }
 
 .product-img { 
-    padding: 10px; /* fixed */
+    padding: 10px; 
     width: 350px;
     height: 350px;
     object-fit: cover;
 }
+.section-box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 
+}
+
+.event-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
 
 form {
     max-width: 500px;
-    margin: 0; /* fixed */
+    margin: 0; 
     text-align: left;
 }
 
