@@ -10,6 +10,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+p {
+    line-height: 1.6;
+}
 
 header, footer {
     display: flex;
@@ -81,7 +87,7 @@ footer img {
     padding: 20px;
     margin: 25px 0;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
 }
 
 .event-img {
