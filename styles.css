@@ -62,12 +62,12 @@ nav ul {
 
 nav a { 
     text-decoration: none;
-    color: #9db17c;
+    color: #6c8f6c;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #6c8f6c;
+    color: #073f1ed7;
 }
 
 
